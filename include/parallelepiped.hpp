@@ -9,7 +9,7 @@ class Parallelepiped : public Rectangle {
 
   size_t volume();
   void print() override;
-  void print_subdata() override;
+  void print_subdata();
 
   protected:
   size_t _height = 0;

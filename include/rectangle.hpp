@@ -10,7 +10,7 @@ class Rectangle {
 
   virtual size_t area();
   virtual void print();
-  virtual void print_subdata();
+  void print_subdata();
 
   protected:
   size_t _length = 0;
